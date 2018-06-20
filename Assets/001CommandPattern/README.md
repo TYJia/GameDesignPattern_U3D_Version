@@ -20,7 +20,7 @@
 
 -----
 
-## [001命令模式](https://gpp.tkchu.me/command.html)
+## [笔记](https://gpp.tkchu.me/command.html)
 
 ### 是什么（个人理解）
 
