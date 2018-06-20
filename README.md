@@ -1,1 +1,3 @@
 # GameDesignPattern_U3D_Version
+
+具体Readme请在Asset内分目录查看
