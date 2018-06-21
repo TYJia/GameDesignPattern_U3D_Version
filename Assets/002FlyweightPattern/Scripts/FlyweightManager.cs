@@ -49,7 +49,7 @@ public class FlyweightManager : MonoBehaviour
         {
             SpecificAttributes sa = new SpecificAttributes();
             Transform tr = Instantiate(TheObj, sa.mPos, sa.mRot).transform;
-            tr.GetComponent<MeshRenderer>().material.color = Color.white * ((float)i/(float)num * 0.1f + 0.95f);
+            tr.GetComponent<MeshRenderer>().material.color = Color.white;
             tr.localScale = sa.mScale;
             ObjTrs.Add(tr);
         }
