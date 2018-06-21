@@ -47,7 +47,7 @@
 
 #### 具体实现：
 
-[](https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/001CommandPattern)https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/001CommandPattern 
+https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/001CommandPattern
 
 ### 缺陷
 
