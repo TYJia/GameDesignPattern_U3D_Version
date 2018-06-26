@@ -41,7 +41,3 @@
 #### 具体实现：
 
 https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/003ObserverPattern
-
-### 拓展
-
-可与对象池联动，进一步减少内存的开销
