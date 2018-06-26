@@ -12,7 +12,7 @@
 
 ---
 
-## [笔记](https://gpp.tkchu.me/flyweight.html)
+## [笔记](https://gpp.tkchu.me/observer.html)
 
 ### 是什么（个人理解）
 
@@ -28,7 +28,7 @@
 
 #### 类图如下：
 
-![](https://github.com/TYJia/GameDesignPattern_U3D_Version/blob/master/Assets/002FlyweightPattern/UML/002FlyweightPattern.png)
+![](https://github.com/TYJia/GameDesignPattern_U3D_Version/blob/master/Assets/003ObserverPattern/UML/003ObserverPattern.png)
 
 射手（Shooter，观察者，这里是听众）告诉广播电台（Radio）自己要听发射气球的广播
 
@@ -40,7 +40,7 @@
 
 #### 具体实现：
 
-https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/002FlyweightPattern
+https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/003ObserverPattern
 
 ### 拓展
 
