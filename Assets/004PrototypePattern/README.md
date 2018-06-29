@@ -18,7 +18,7 @@
 
 ---
 
-## [笔记](https://gpp.tkchu.me/observer.html)
+## [笔记](https://gpp.tkchu.me/prototype.html)
 
 ### 是什么（个人理解）
 
