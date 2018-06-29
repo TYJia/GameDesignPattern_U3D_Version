@@ -7,3 +7,5 @@
 ## [享元模式](https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/002FlyweightPattern)
 
 ## [观察者模式](https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/003ObserverPattern)
+
+## [原型模式](https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/004PrototypePattern)

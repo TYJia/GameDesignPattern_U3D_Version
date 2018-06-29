@@ -33,7 +33,7 @@
 
 #### 类图如下：
 
-![](https://github.com/TYJia/GameDesignPattern_U3D_Version/blob/master/Assets/003ObserverPattern/UML/003ObserverPattern.png)
+![](https://github.com/TYJia/GameDesignPattern_U3D_Version/blob/master/Assets/004PrototypePattern/UML/004PrototypePattern.png)
 
 - Unity中Prefab本质就是此模式里的原型，而Spawner要做的只是调用Instantiate方法
 - 新的Prefab被生成以后，通过读取Dragons.txt里配置的信息来设置克隆体的名称和尺寸
@@ -42,4 +42,4 @@
 
 #### 具体实现：
 
-https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/003ObserverPattern
+https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/004PrototypePattern
