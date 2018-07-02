@@ -42,8 +42,8 @@ U3D中利用MonoBehaviour初始化单例非常简单，只要在Awake中加入In
 
 #### 类图如下：
 
-![](https://github.com/TYJia/GameDesignPattern_U3D_Version/blob/master/Assets/004PrototypePattern/UML/004PrototypePattern.png)
+![](https://github.com/TYJia/GameDesignPattern_U3D_Version/blob/master/Assets/005SingletonPattern/UML/005SingletonPattern.png)
 
 #### 具体实现：
 
-https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/004PrototypePattern
+https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/005SingletonPattern
