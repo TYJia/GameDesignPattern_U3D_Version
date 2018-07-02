@@ -11,7 +11,7 @@ public class Dragon : MonoBehaviour
 
     void Start()
     {
-        ReadRandomNameAndScle(Application.dataPath + "\\004PrototypePattern\\Dragons.txt");
+        ReadRandomNameAndScale(Application.dataPath + "\\004PrototypePattern\\Dragons.txt");
         Invoke("DestroyThis", 10f);
     }
 
@@ -20,7 +20,7 @@ public class Dragon : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void ReadRandomNameAndScle(string path)
+    private void ReadRandomNameAndScale(string path)
     {
         StreamReader sr = new StreamReader(path);
         string line;
