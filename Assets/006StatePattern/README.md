@@ -37,8 +37,16 @@
 
 #### SwitchCase版本类图及自动机如下：
 
+![](https://github.com/TYJia/GameDesignPattern_U3D_Version/blob/master/Assets/006StatePattern/UML/006StatePattern-SwitchCase.png)
+
+![](https://github.com/TYJia/GameDesignPattern_U3D_Version/blob/master/Assets/006StatePattern/UML/LightSwitchCase.png)
+
 #### StateClass版本类图及自动机如下：
+
+![](https://github.com/TYJia/GameDesignPattern_U3D_Version/blob/master/Assets/006StatePattern/UML/006StatePattern-StateClass.png)
+
+![](https://github.com/TYJia/GameDesignPattern_U3D_Version/blob/master/Assets/006StatePattern/UML/LightStateClass.png)
 
 #### 具体实现：
 
-https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/005SingletonPattern
+https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/006StatePattern
