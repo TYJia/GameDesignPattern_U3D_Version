@@ -1,6 +1,6 @@
 # 行为模式
 
-## [笔记](https://gpp.tkchu.me/state.html)
+## [笔记](https://gpp.tkchu.me/behavioral-patterns.html)
 
 ### 是什么、为什么（个人理解）
 

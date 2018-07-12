@@ -12,6 +12,12 @@
 
 [6. 状态模式](https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/006StatePattern)
 
+[7. 序列模式](https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/007SequencingPatterns)
+
+[8. 行为模式](https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/008BehavioralPatterns)
+
+[9. 解耦模式](https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/009DecouplingPatterns)
+
 ---
 
 [TOC]
@@ -354,7 +360,7 @@ https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/006Sta
 
 # 序列模式
 
-## [笔记](https://gpp.tkchu.me/state.html)
+## [笔记](https://gpp.tkchu.me/sequencing-patterns.html)
 
 ### 是什么、为什么（个人理解）
 
@@ -374,7 +380,7 @@ https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/006Sta
 
 # 行为模式
 
-## [笔记](https://gpp.tkchu.me/state.html)
+## [笔记](https://gpp.tkchu.me/behavioral-patterns.html)
 
 ### 是什么、为什么（个人理解）
 
@@ -391,6 +397,16 @@ https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/006Sta
 ---
 
 # 解耦模式
+
+## 项目说明
+
+Game模式下，点击鼠标可以设置多个目标点，Player（方块）会依次移向目标点
+
+> 解耦模式中包含了三种不同的模式，这里只实现了事件序列作为参考，其他两种模式在Unity中均有较好实现，可参考笔记内容
+
+### EventQueue
+
+监听鼠标点击事件，在鼠标点击时向队列注入新的目标点；Update中，若当前目标点为空，则取出队列第一位作为当前目标点，若到达当前目标点，则删除
 
 ## [笔记](https://gpp.tkchu.me/decoupling-patterns.html)
 
@@ -409,6 +425,14 @@ https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/006Sta
   - 类似单例模式，在运行时寻找组件（而不是运行前赋值）
   - Unity中GetComponent，FindObjectOfType，Find等方法都可帮助实现相关服务的查找，但此类反射方法要避免在运行时高频循环调用
   - 拓展——还可以建立一个运行前赋值的服务注册中心（当然也可运行中赋值），其他需要服务的对象在运行时去注册中心查找相关服务，这样做一方面可以避免全局反射的恶果，一方面可以保留服务定位器带来的解耦优势——单例模式也可使用这样的方法来替换（对象注册中心）
+
+### 怎么做（事件队列）
+
+点击鼠标时在Queue中添加一个红点，当目标点为空时从Queue中取出第一位位作为目标点，让Player移向目标点，到达目标点时删除目标点
+
+#### 具体实现：
+
+https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/009DecouplingPatterns
 
 ---
 
