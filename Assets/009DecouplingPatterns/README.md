@@ -34,3 +34,4 @@ Game模式下，点击鼠标可以设置多个目标点，Player（方块）会�
 
 #### 具体实现：
 
+https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/009DecouplingPatterns
