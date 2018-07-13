@@ -21,15 +21,21 @@ Game模式下，点击鼠标可以设置多个目标点，Player（方块）会�
 
 随机生成500个点，临近点之间可以连线
 
+![](https://github.com/TYJia/GameDesignPattern_U3D_Version/blob/master/Assets/010OptimizationPatterns/SpatialPartition/Pics/PointLine.png)
+
 Game模式下，点选OctTreeManager
 
 - LineGenerator
   - 勾选UseOctTree，使用空间八叉树计算距离，反之用for循环500*500计算距离
     - 静态模式下，使用八叉树计算FPS能达到 86
     - 普通for循环，FPS只有 26
+
+    ![](https://github.com/TYJia/GameDesignPattern_U3D_Version/blob/master/Assets/010OptimizationPatterns/SpatialPartition/Pics/FPS.png)
   - 勾选Animated，点会发生移动，这时会动态更新八叉树内容，帧率比静态降低，但同样高于普通for循环
 - OctTree
   - 勾选Show，则显示八叉树，反之隐藏 
+
+  ![](https://github.com/TYJia/GameDesignPattern_U3D_Version/blob/master/Assets/010OptimizationPatterns/SpatialPartition/Pics/OctTree.png)
 
 ### OtcTree
 
@@ -51,7 +57,7 @@ Game模式下，点选OctTreeManager
 
 > 以上仅为演示用，所以并没有优化八叉树
 
-## [笔记](https://gpp.tkchu.me/decoupling-patterns.html)
+## [笔记](https://gpp.tkchu.me/optimization-patterns.html)
 
 ### 是什么、为什么（个人理解）
 
@@ -101,4 +107,4 @@ Game模式下，点选OctTreeManager
 
 #### 具体实现：
 
-https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/009DecouplingPatterns
+https://github.com/TYJia/GameDesignPattern_U3D_Version/tree/master/Assets/010OptimizationPatterns
